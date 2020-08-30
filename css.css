@@ -1,0 +1,92 @@
+﻿@font-face {
+	font-family: "Arial2";
+	src: url("Website Files/arial.ttf");
+
+}
+
+body {
+	background-color: #0E91D5;
+	background-image: url("Website Files/blue ackground.jpg");
+	font-family: Arial2;
+	font-size: small;
+	margin: 0;
+}
+.logo {
+	display: block;
+	float: center;
+	margin: auto;
+	width: 30%;
+}
+
+.body-img {
+	display: block;
+	float: right;
+}
+.button {
+  font-family: Arial2;
+  float: left;
+  background-color: #5e03fc;
+  border: 10px soild black;
+  width: 33.29%;
+  color: white;
+  padding: 15px 32px;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto;
+}
+
+#navigation {
+	display: block;
+	float: center;
+	margin: auto ;
+	height: 0px;
+	background-color: #2d2d2d;
+	width: 53.5%;
+	color: white;
+	}
+
+#content {
+	display: block;
+	float: center;
+	margin: auto;
+	font-size: 100%;
+	background-color: #2d2d2d;
+	width: 50%;
+	border-left: 2px solid #767676;
+	border-right: 2px solid #767676;
+	border-top: 2px solid #767676;
+	border-bottom: 2px solid #767676;
+	padding: 15px 32px;
+	color: white;
+}
+
+.potato {
+	display: block;
+	float: center;
+	margin: auto;
+	width: 60%;
+}
+
+
+#watermark {
+	display: block;
+	float: center;
+	margin: auto;
+	font-size: 100%;
+	text-align: center;
+	text-decoration: none;
+	background-color: #2d2d2d;
+	width: 50%;
+	padding: 15px 32px;
+	border-bottom: 2px solid #767676;
+	border-left: 2px solid #767676;
+	border-right: 2px solid #767676;
+	color: white;
+}
+.fade-in {
+transform: translate(0, 10vh);
+transition: all 1s;
+}
